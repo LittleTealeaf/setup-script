@@ -1,3 +1,0 @@
-
-def clear_file():
-    ...
