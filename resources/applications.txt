@@ -1,2 +1,2 @@
 texlive-full
-git
+python3.9
