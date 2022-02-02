@@ -1,0 +1,4 @@
+texlive-full
+python3.9
+git
+google-chrome-stable
