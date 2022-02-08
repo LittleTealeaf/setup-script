@@ -2,9 +2,9 @@
 [![Install Test](https://github.com/LittleTealeaf/setup-script/actions/workflows/Installation.yml/badge.svg)](https://github.com/LittleTealeaf/setup-script/actions/workflows/Installation.yml)  
 Simple Linux setup scripts to install applications I use
 
-Run Script:
+Install Script:
 ```bash
-sudo apt install git && mkdir ~/Github && cd ~/Github && git clone "https://github.com/LittleTealeaf/setup-script" && cd setup-script && sudo ./run.sh
+wget https://raw.githubusercontent.com/LittleTealeaf/setup-script/main/install.sh && bash ./install.sh
 ```
 
 ## Scripts Setup
