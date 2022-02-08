@@ -6,7 +6,7 @@ sudo apt update
 sudo apt upgrade
 
 # Install Applications in the apps file
-cat ./resources/aptlist.txt | xargs sudo apt -y install
+cat ./resources/aptpackages.txt | xargs sudo apt -y install
 
 # Install application scripts in customapps
 cd tmp
