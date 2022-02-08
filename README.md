@@ -4,7 +4,7 @@ Simple Linux setup scripts to install applications I use
 
 Run Script:
 ```bash
-sudo apt install git && mkdir ~/Github && cd ~/Github && git clone "https://github.com/LittleTealeaf/setup-script" && sudo ./run.sh
+sudo apt install git && mkdir ~/Github && cd ~/Github && git clone "https://github.com/LittleTealeaf/setup-script" && cd setup-script && sudo ./run.sh
 ```
 
 ## Scripts Setup
