@@ -1,7 +1,4 @@
 #!/bin/bash
-
-mkdir tmp
-
 sudo apt update
 sudo apt upgrade
 
@@ -9,13 +6,17 @@ sudo apt upgrade
 cat ./resources/aptpackages.txt | xargs sudo apt -y install
 
 # Install application scripts in customapps
+mkdir tmp
 cd tmp
-ls ./customapps | while read line; do
+ls ../customapps | while read line; do
     sudo bash "../customapps/$line"
+    sudo rm -r *
+done
+ls ../scripts | while read line; do
+    sudo bash "../scripts/$line"
     sudo rm -r *
 done
 cd ..
 
-./scripts/gitconfig.sh
 
 sudo rm -r tmp
