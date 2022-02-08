@@ -1,4 +1,5 @@
 # setup-script
+[![Install Test](https://github.com/LittleTealeaf/setup-script/actions/workflows/Installation.yml/badge.svg)](https://github.com/LittleTealeaf/setup-script/actions/workflows/Installation.yml)
 Simple Linux setup scripts to install applications I use
 
 Run Script:
