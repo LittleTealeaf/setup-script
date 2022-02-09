@@ -6,6 +6,7 @@ Install Script:
 ```bash
 wget https://raw.githubusercontent.com/LittleTealeaf/setup-script/main/install.sh && bash ./install.sh
 ```
+<!-- Why do I feel like theres a better way to do this -->
 
 ## Scripts Setup
 Separate bash files or scripts in both the `scripts` directory and the `customapps` directory are installed while within a temporary folder called `tmp`, which is cleaned after each instance
